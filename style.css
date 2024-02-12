@@ -1,0 +1,42 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+html, body, aside{
+    height: 100%;
+    text-align: center;
+    }
+body{
+    background-color: rgba(149, 137, 255, 0.034);
+    font-family: sans-serif;
+   }
+.aside-wrap .menu-list{
+    list-style: none;
+    }
+    .aside-wrap .menu-item{
+        line-height: 3;
+            }
+.aside-wrap .menu-link{
+    color:rgba(0, 0, 0, 0.932);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    background-color: whitesmoke;
+    border-radius:4px;
+    padding: 5px;
+    }
+.name{
+    font-family: ubuntu, sans-serif;
+    font-size: 40px;
+    }
+    .aside-wrap{
+    background-color: rgba(137, 145, 255, 0.034);
+    background-image: linear-gradient(to bottom right,red, black);
+    width: 240px;
+     }
+    .aside-wrap .menu-link:hover{
+        border-bottom: 2px solid rgb(131, 226, 43);
+    }
