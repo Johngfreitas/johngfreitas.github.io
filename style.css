@@ -1,10 +1,14 @@
-img{
+*{
+    margin: 0;
+    box-sizing:border-box;/*considera todos os valores de padding e margin dos containers e blocos*/
+}
+/*img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
     margin-top: 10px;
-}
-html, body, aside{
+}*/
+html, body, .aside-wrap{
     height: 100%;
     text-align: center;
     }
@@ -14,19 +18,23 @@ body{
    }
 .aside-wrap .menu-list{
     list-style: none;
+    margin-top:20px;
     }
-    .aside-wrap .menu-item{
+    /*.aside-wrap .menu-item{
         line-height: 3;
-            }
+            }*/
 .aside-wrap .menu-link{
     color:rgba(0, 0, 0, 0.932);
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 40px;
     background-color: whitesmoke;
     border-radius:4px;
     padding: 5px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
     }
 .name{
     font-family: ubuntu, sans-serif;
@@ -36,7 +44,19 @@ body{
     background-color: rgba(137, 145, 255, 0.034);
     background-image: linear-gradient(to bottom right,red, black);
     width: 240px;
+    padding: 100px 20px;
+    position: fixed;    
+    
      }
+
+     .profile-img{
+        width: 240px;/*largura*/
+        height: 240px;/*altura*/
+        border-radius: 5px;/*borda*/
+        box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .5);/*sombra imagem*/
+    
+     }
+
     .aside-wrap .menu-link:hover{
         border-bottom: 2px solid rgb(131, 226, 43);
     }
