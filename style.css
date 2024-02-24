@@ -8,9 +8,15 @@
     border-radius: 100px;
     margin-top: 10px;
 }*/
-html, body, .aside-wrap{
+html, body, .aside-wrap, main, section{
     height: 100%;
-    text-align: center;
+    /*text-align: center;*/
+    }
+    section{
+        margin-left: 300px;
+    }
+    html{
+        scroll-behavior: smooth;
     }
 body{
     background-color: rgba(149, 137, 255, 0.034);
