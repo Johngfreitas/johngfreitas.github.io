@@ -37,26 +37,18 @@ body{
    }
 .aside-wrap .menu-list{
     list-style: none;
-    margin-top:20px;
+    margin-top:10px;
     }
-    /*.aside-wrap .menu-item{
+    .aside-wrap .menu-item{
         line-height: 3;
-            }*/
+    }
 .aside-wrap .menu-link{
     color:rgba(238, 241, 237, 0.932);
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
-    margin-right: 40px;
-    border-radius:4px;
-    padding: 5px;
+    font-size: 18px;
     display: block;
-    margin-top: 10px;
     text-align: left;
-    }
-.name{
-    font-family: ubuntu, sans-serif;
-    font-size: 40px;
     }
     /*ASIDE WRAP*/
     .aside-wrap{
