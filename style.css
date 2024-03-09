@@ -3,9 +3,9 @@
     box-sizing:border-box;/*considera todos os valores de padding e margin dos containers e blocos*/
 }
 :root{
-    --primary: #312c20;
+    --primary: #7c7052;
     --secondary: #494d4b;
-    --hover:#7c7052;
+    --hover:#312c20;
     --dark:#17080C;
 }
 
