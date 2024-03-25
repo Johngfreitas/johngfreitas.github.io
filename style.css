@@ -6,10 +6,10 @@
   }
   
   :root {
-    --primary: #C94666;
-    --secondary: #78293d;
-    --hover: #5E2130;
-    --dark: #17080C;
+    --primary: #2F4F4F;
+    --secondary: #708090;
+    --hover: #696969;
+    --dark: #A9A9A9;
   }
   
   html, body, aside, main, section {
@@ -92,14 +92,14 @@
     margin-right: 10px;
   }
   
-  .social-links li a {
+  .social-links li a{
     padding: 10px;
     display: block;
     color: #fff;
     font-weight: bold;
     font-size: 26px;
     text-decoration: none;
-    background-color: var(--secondary);
+    background-color: var(--primary);
   }
   .menu-label, #menu-check {
     display: none;
@@ -152,4 +152,16 @@
       margin: 0;
     }
   
+  }
+  .tech li{
+    display: inline-block;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+    color: var(--primary)
+    
+  }
+  .portfolio{
+    width: 300px;
+    height: 200px;
   }
